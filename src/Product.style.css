@@ -1,0 +1,12 @@
+#products {border: 1px solid #ccc;margin: 20px auto;}
+.product-head{background-color: #194d73;color:#fff;}
+.product-head th{font-weight: bold;text-align: left;padding: 15px;border: 1px solid #194d73;}
+.product-list{background-color: #f7fcff;color: #194d73}
+.product-list.even{background-color: #ebf3f8;}
+.product-list td{padding: 5px 10px;text-align: left;font-size: 15px;}
+.product-list td .description{cursor: pointer;font-size: 14px;}
+.product-list img{height:50px;margin:5px;padding:2px}
+.product-img{position: relative;margin-left:20px;border: 1px solid #dde6ec;text-align: center;}
+.next-arrow{cursor: pointer;background-color: #194d73;color: #ddf0fe;padding: 0px 2px;border-radius: 30px; position: absolute;top: 19px;right:-10px}
+.prev-arrow{background-color: #194d73;cursor: pointer;color: #ddf0fe;padding: 0px 2px;border-radius: 30px; position: absolute;top: 19px;left:-10px}
+.next-arrow.disabled,.prev-arrow.disabled {background-color: #eee; color: #d4cdcd;}
